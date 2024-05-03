@@ -1,0 +1,1066 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body{
+	overflow-x:hidden;
+}
+
+/* navbar css start */
+nav{
+	padding:0px !important;
+}
+
+.shape{
+	border-bottom: 110px solid #ffff;
+	border-left: 0px solid transparent;
+	border-right: 354px solid transparent;
+	height: 0;
+	width: 125px;
+	background-color: rgba(255, 255, 255, 1);
+	flex-shrink: 0;
+	
+}
+.shape4 {
+	width: 27px;
+	height: 50px;
+	transform: skew(50deg);
+	background-color: white;
+	flex-shrink: 0;
+}
+
+.shape2 {
+    width: 10px;
+    height: 94px;
+    transform: skew(deg);
+    background-color: rgba(0, 204, 255, 1);
+    flex-shrink: 0;
+    position: absolute;
+    left: 197px;
+}
+.shape3 {
+	width: 43px;
+	height: 110px;
+	transform: skew(37deg);
+	background-color: rgba(240, 169, 55, 1);
+	flex-shrink: 0;
+}
+a.navbar-brand {
+    position: absolute;
+    left: 50px;
+}
+a.nav-link {
+    color: white;
+}
+button.input-group-text {
+    background-color: white;
+}
+form.input-group {
+    width: 233px;
+}
+/* navbar css end */
+/* banner css start */
+.banner{
+	position: relative;
+    height:460px;
+    width:100%;
+    overflow: hidden;
+	background-color:#0000005c;
+}  
+#myVideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height:auto;
+    width:auto;
+    z-index: -100;
+}
+.circle{
+	height:40px;
+	width:45px;
+	border-radius:50%;
+	background-color:#969696;
+}
+.circle:hover{
+	background-color:#f0a937;
+	
+}
+.banner_container{
+	margin-top:100px;
+}
+.btn-warning{
+	background-color:rgba(240, 169, 55, 1);
+	color:white;
+	border-radius: 7.286px;
+}
+.carousel-caption {
+    margin-bottom: 93px;
+}
+.banner h1{
+	color: #FFF;
+	font-size: 30px;
+	font-family: Amarante;
+	letter-spacing: 3.6px;
+}
+.banner p{
+	color: #FDFDFD;
+	font-size: 21.859px;
+	font-weight: 400;
+	letter-spacing: 2.623px;
+}
+.book {
+    width: 194.913px;
+    height: 52.451px;
+}
+/* banner css end */
+/* about css start */
+.about h6 {
+    color: #000;
+    font-size: 20.949px;
+    font-weight: 640;
+    letter-spacing: 4.609px;
+}
+.about h2 {
+    color: #0CF;
+    font-size: 30px;
+    font-family: Amarante;
+    letter-spacing: 1.5px;
+}
+.about p {
+    text-align: justify;
+    font-size: 16.395px;
+    line-height: 176.023%;
+}
+/* about css end */
+/* choose us css start */
+.choose h2{
+	color: #0CF;
+    font-size: 30px;
+    font-family: Amarante;
+    letter-spacing: 1.5px;
+}
+.choose .choose_card{
+	/* border-color:rgba(0, 204, 255, 1)rgba(240, 169, 55, 1); */
+	border-radius: 7.752px;
+	border-width:2px;
+	height:196.445px;
+	&:hover {
+    transition: all 0.2s ease-out;
+    /* box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2); */
+    top: -4px;
+    /* border: 1px solid #cccccc; */
+    /* background-color: white; */
+  }
+}
+.choose_card {
+  --borderWidth: 3px;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.choose_card:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #00CCFF, #00CCFF, #00CCFF, #F0A937, #F0A937, #F0A937);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.choose .card_img{
+	width: 86.093px;
+	height: 73.667px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 7.1px;
+	border: 1.722px solid #0CF;
+	border-width:2px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	position: relative;
+    top: 35px;
+    z-index: 1;
+}
+.fa-people-roof{
+	font-size:35px;
+}
+.fa-house-user{
+	font-size:35px;
+}
+.fa-calendar-xmark{
+	font-size:35px;
+}
+.fa-camera-retro{
+	font-size:35px;
+}
+.fa-thumbs-up{
+	font-size:35px;
+}
+.fa-calendar-check{
+	font-size:35px;
+}
+/* choose us css end */
+/* beachfront css start */
+.beachfront{
+	background-image:url('../img/bg1.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:100px;
+	color:white;
+	padding:10px;
+	text-align: justify;
+}
+.beachfront h2{
+	color: #FFF;
+	font-size: 27.324px;
+	font-family: Amarante;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 3.279px;
+}
+.beachfront li{
+	font-style: normal;
+	font-weight: 400;
+	line-height: 200%;
+	letter-spacing: 0.905px;
+	font-size: 18.108px;
+	list-style:none;
+}
+.beachfront .read_btn{
+	color: #F0A937;
+	font-size: 18.879px;
+	font-weight: 500;
+	border-radius: 7.218px;
+	border: 1.805px solid #F0A937;
+}
+.beachfront .read_btn:hover{
+	color:#FFF;
+	background-color:rgba(240, 169, 55, 1);
+}
+.fa-arrow-right-long{
+	color: #F0A937;
+}
+.fa-arrow-right-long:hover{
+	color:white;
+}
+/* beachfront css end */
+/* discover css start */
+.discover{
+	background-image:linear-gradient(to left,rgba(240, 169, 55, 0),rgba(240, 169, 55, 1)),url('../img/banner2.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-width:100%;
+	color:white;
+	padding:30px;
+}
+.discover h2{
+	color: #FFF;
+	font-size: 27.324px;
+	font-family: Amarante;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 8.334px;
+}
+.discover p{
+	color: #FFF;
+	font-size: 19.057px;
+	font-weight: 400;
+	letter-spacing: 2.096px;
+}
+.discover .discover_btn{
+	border-radius: 7.286px;
+	border: 0.911px solid #000;
+	color: #FFF;
+	font-size: 18.219px;
+	font-weight: 400;
+	width: 197.645px;
+	height: 46.451px;
+}
+/* discover css end  */
+/* accomodation css start */
+.accomodation{
+	background-color:rgba(246, 246, 246, 1);
+	padding: 43px;
+}
+.accomodation h2{
+	color: #0CF;
+	font-size: 30px;
+	font-family: Amarante;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+.accomodation .card{
+	border-radius: 7px;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	width: 367px;
+	height: 430px;
+}
+.accomodation .acc_card1{
+	background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0), rgba(0, 204, 255, 1)),url('../img/acc_img1.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius: 7px;
+	color:white;
+}
+.accomodation .acc_card2{
+	background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0), rgba(0, 204, 255, 1)),url('../img/acc_img2.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:7px;
+	color:white;
+	
+}
+.accomodation .acc_card3{
+	background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0), rgba(0, 204, 255, 1)),url('../img/acc_img3.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:7px;
+	color:white;
+	
+}
+.accomodation .read{
+	color:rgba(240, 169, 55, 1);
+}
+.accomodation h5{
+	margin-top:155px;
+}
+.accomodation  button{
+	width: 178px;
+	height: 38px;
+	border-radius:20px;
+}
+.fa-angles-right{
+	color:#ffffff;
+}
+.fa-angles-right:hover{
+	color:black;
+}
+/* accomodation css end */
+/* gallery css start */
+.gallery h2{
+	color: #0CF;
+	font-size: 30px;
+	font-family: Amarante;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+/* gallery css end */
+/* video css start */
+#myVideo1{
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height:auto;
+    width:auto;
+    z-index: -100;
+}
+iframe.responsive-iframe {
+    width: 100%;
+    border-radius: 7px;
+    height: 330px;
+}
+.responsive-iframe{
+	background-color:background: linear-gradient(60deg, #00CCFF, #00CCFF, #00CCFF, #F0A937, #F0A937, #F0A937);
+}
+/* video css end */
+/* book now css start */
+.book_now{
+	background-image:linear-gradient(to right,rgba(0, 0, 0, 0),rgba(0, 204, 255, 0.88)),url('../img/banner2.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-width:100%;
+	color:white;
+	padding:30px;
+}
+.book_now h2{
+	color: #FFF;
+	font-size: 27.324px;
+	font-family: Amarante;
+	font-weight: 400;
+	letter-spacing: 8.334px;
+}
+.book_now p{
+	color: #FFF;
+	font-size: 20.721px;
+	font-weight: 400;
+	letter-spacing: 2.279px;
+}
+/* book now css end */
+/* activities css start */
+.activities h2{
+	color: #0CF;
+	font-size: 30px;
+	font-family: Amarante;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+.activities p{
+	color: #000;
+	font-size: 17.373px;
+	font-weight: 400;
+	line-height: 30.057px;
+}
+.read_more{
+	color:red;
+}
+/* activities css end */
+/* testimonials css start */
+.testimonials{
+	background-image:url('../img/testimonials.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:10px;
+}
+.testimonials h2{
+	color: #0CF;
+	font-size: 30px;
+	font-family: Amarante;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+.test_card{
+	border-radius:44.975px 0px;
+	padding:10px;
+	height: 302.089px;
+}
+.test_card .card-title{
+	color: #000;
+	font-size: 13.768px;
+	font-weight: 700;
+	letter-spacing: 0.688px;
+}
+.test_card p{
+	color: #333;
+	text-align: justify;
+	font-size: 12.85px;
+	font-weight: 400;
+	line-height: 20.193px;
+}
+.fa-quote-left{
+	font-size:23px;
+}
+.fa-quote-right{
+	font-size:23px;
+}
+/* testimonials css end */
+/* newsletter css start */
+.newsletter{
+	background-image:url(../img/news.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:white;
+	padding:15px;
+}
+.letter{
+	background-color:white;
+	border-radius: 7.286px;
+	height:40px;
+	width:404px;
+	position: relative;
+    left: 366px;
+}
+.letter input{
+	float:left;
+	border-radius: 7.286px;
+	height:41px;
+	border-color:white;
+}
+.letter button{
+	float:right;
+	width:130px;
+}
+.newsletter h2{
+	color: #FFF;
+	font-size: 27.324px;
+	font-family: Amarante;
+	font-weight: 400;
+	letter-spacing: 4.099px;
+}
+.newsletter p{
+	color: #FFF;
+	font-size: 18.216px;
+	font-weight: 500;
+	letter-spacing: 4.008px;
+}
+/* newsletter css end */
+/* footer css start */
+footer a{
+	text-decoration:none;
+	color:white;
+}
+.touch a{
+	word-break: break-all;
+}
+footer a:hover{
+	color:rgba(0, 204, 255, 1);
+}
+footer h5{
+	color:#0dcaf0;
+}
+.footer_logo{
+	background-color:rgba(179, 170, 170, 0.35);
+	padding:40px;
+}
+.footer_content{
+	background-image:url(../img/bg2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:white;
+	padding:40px;
+}
+.footer_content li{
+	list-style:none;
+	margin-bottom:14px;
+}
+.brands li{
+	display:inline;
+}
+.fa-square-facebook{
+	font-size:25px;
+}
+.fa-square-twitter{
+	font-size:25px;
+}
+.fa-square-instagram{
+	font-size:25px;
+}
+.fa-linkedin{
+	font-size:25px;
+}
+.fa-phone-volume{
+	font-size:19px;
+}
+.fa-envelope{
+	font-size:19px;
+}
+.fa-location-dot{
+	font-size:19px;
+}
+/* footer css end */
+/* copyright css start */
+.copyright p{
+	color: #000;
+	font-size: 16.191px;
+	font-weight: 500;
+	letter-spacing: 0.81px;
+}
+/* copyright css end  */
+/* slider arrow css start */
+.lSAction>a{
+	background-color: #ffbf00;
+    border-radius: 50px;
+	margin-top: 1px!important;
+}
+.lSAction>.lSNext {
+    right: 2px!important;
+}
+.lSAction>.lSPrev {
+    left: 2px!important;
+}
+/* slider arrow css end */
+/* about page css start */
+
+.area iframe{
+	height:400px!important;
+} 
+.about_card a{
+	text-decoration:none;
+}
+.active{
+	color:#fecc29!important;
+}
+.banner_card{
+	height:399px;
+	background-image:url(../img/bg3.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:white;
+}
+.banner_text{
+	text-align:justify;
+}
+.about_pg h6 {
+    color: #000;
+    font-size: 20.949px;
+    font-weight: 640;
+    letter-spacing: 4.609px;
+}
+.about_pg h2 {
+    color: #0CF;
+    font-size: 30px;
+    font-family: Amarante;
+    letter-spacing: 1.5px;
+}
+.about_pg p {
+    text-align: justify;
+    font-size: 16.395px;
+    line-height: 176.023%;
+}
+
+/* about page css end */
+/* accomodation page css start */
+.accVdo{
+	position: absolute;
+    top: 737px;
+    right: 49px;
+    width: 40%!important;
+	height: 373px!important;
+}
+.accomodate_cap{
+	background-color: rgb(242 242 242);
+    border-radius: 7px;
+    padding:13px 23px 13px;
+    width: 542px;
+}
+.accomodate_cap_mob{
+	visibility:hidden;
+}
+
+.accomodate p{
+	text-align:justify;
+}
+.accom_slider{
+	border-radius:7px !important;
+}
+#space{
+	overflow:hidden;
+}
+/* accomodation page css end */
+/* contact us page css start */
+.page_banner{
+	background-image:url('../img/banner.png');
+	background-repeat:no-repeate;
+	background-size:cover;
+	color:white;
+	padding:100px;
+}
+.Contact h3{
+	color: #0CF;
+    font-size: 30px;
+    font-family: Amarante;
+    letter-spacing: 1.5px;
+}
+.contact_cap{
+	background-color: rgba(0, 204, 255, 1);
+    border-radius: 7px;
+    color: white;
+    position: relative;
+    z-index: 2;
+    left: 12;
+    top: 12;
+    left: 28px;
+    bottom: 119px;
+    padding: 37px 37px 27px;
+    width: 475px;
+    width: 472px;
+}
+.contact_cap h2{
+	color:white;
+}
+.contact_cap ul{
+	list-style:none;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+	color: #ffffff !important;
+}
+.page_banner a{
+	color:#ffffff;
+	text-decoration:none;
+}
+/* contact us page css end */
+/* camping page css start */
+.camp h6 {
+    color: #000;
+    font-size: 20.949px;
+    font-weight: 640;
+    letter-spacing: 4.609px;
+}
+.camp h2 {
+    color: #0CF;
+    font-size: 30px;
+    font-family: Amarante;
+    letter-spacing: 1.5px;
+}
+.camp p {
+    text-align: justify;
+    font-size: 16.395px;
+    line-height: 176.023%;
+}
+/* camping page css end */
+/* scroll to top arrow css start */
+
+button.back-to-top{
+	margin: 0 !important;
+	padding: 0 !important;
+	background: #fff;
+	height: 0px;
+	width: 0px;
+	overflow: hidden;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	color: transparent;
+	clear: both;
+	visibility: hidden;
+	position: fixed;
+	cursor: pointer;
+	display: block;
+	border: none;
+	right: 50px;
+	bottom: 75px;
+	font-size: 0px;
+	outline: 0 !important;
+	z-index: 99;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+button.back-to-top:hover,
+button.back-to-top:active,
+button.back-to-top:focus,{
+  outline: 0 !important;
+}
+button.back-to-top::before,
+button.back-to-top::after {
+	content: "";
+    display: block;
+    vertical-align: middle;
+    border-bottom: solid 10px #00ccff;
+    border-left: solid 10px transparent;
+    line-height: 0;
+    border-right: solid 10px transparent;
+    height: 0;
+    margin: 18px auto 0;
+    width: 0;
+	border-radius:20px;
+	visibility: hidden;
+}
+button.back-to-top.show::after,
+button.back-to-top.show::before{
+    visibility: visible;
+}
+button.back-to-top::after {
+    border-bottom-color:#fff;
+    position: relative;
+    top:-24px;
+}
+button.back-to-top.show {
+	display: block;
+	background: #fff;
+	color: #00ab6c;
+	font-size: 25px;
+	right: 25px;
+	bottom: 50px;
+	height: 50px;
+	width: 50px;
+	visibility: visible;
+	box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+}
+button.back-to-top.show:active {
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+}
+/* scroll to top arrow css end */
+/* accomodation page css start */
+.accom h6 {
+    color: #000;
+    font-size: 20.949px;
+    font-weight: 640;
+    letter-spacing: 4.609px;
+}
+.accom h2 {
+    color: #0CF;
+    font-size: 30px;
+    font-family: Amarante;
+    letter-spacing: 1.5px;
+}
+.accom p {
+    text-align: justify;
+    font-size: 16.395px;
+    line-height: 176.023%;
+}
+
+/* accomodation page css end */
+
+
+
+
+
+/* mobile responsive css */
+ @media (max-width: 576px) { 
+ 
+
+/* navbar css responsive start */
+	.navbar ul{
+		background-color: black;
+		position: relative;
+		right: 24px;
+		text-align: center;
+		padding: 18px;
+		border-radius: 5px;
+	}
+	.carousel-caption {
+		margin-bottom: 17px;
+	}
+	form.input-group {
+		position: relative;
+		left: 29px;
+	}
+	.navbar{
+		background-color:white!important;
+		margin: 8px;
+	}
+	a.navbar-brand{
+		position:static;
+	}
+	.shape2{
+		 display:none;
+	}
+	.shape3{
+		 display:none;
+	}
+	.shape{
+		 display:none;
+	}
+	button.navbar-toggler {
+		background: #06cdff !important;
+	}
+	/* navbar css responsive end */
+	/* banner section css responsive start */
+	.banner h1 {
+		font-size: 25px;
+	}
+	/* banner section css responsiend */
+	/* choose css responsive start */
+	.choose_card .card-body{
+		padding:58px!important;
+	}
+	/* choose css responsive end */
+	/* accomodation css responsive start */
+	.accomodation .card {
+		width:249px;
+	}
+	.accomodation h5 {
+		margin-top: 97px;
+		/* height: 402px!important; */
+	}
+
+	/* accomodation css responsive end */
+	/* newsletter css responsive start */
+	.letter{
+		width:288px;
+		position:relative;
+		left:15px;
+	}
+	/* newsletter css responsive end */
+	/* footer css responsive start */
+	.footer_logo img{
+		position: relative;
+		left: 61px;
+	}
+	.footer_content{
+		padding:22px;
+	}
+	/* footer css responsive end */
+	 /* Contact page responsive start */
+	figcaption {
+		background-color: rgba(0, 204, 255, 1);
+		border-radius: 7px;
+		color: white;
+		position: static;
+		z-index: 2;
+		left: 12;
+		top: 12;
+		left: 28px;
+		bottom: 119px;
+		padding: 24px 20px 7px;
+		width: 475px;
+		width: 352px;
+		margin-top: 24px;
+	}
+	.contact li{
+		font-size:15px;
+	}
+	.contact_cap{
+		width: 352px;
+		left:0px;
+		bottom:13px;
+		padding: 19px 22px 10px;
+		margin-top: 50px;
+	}
+	.cont_form{
+		margin-bottom: 39px;
+	}
+	 /* contact page responisend */
+	 /* camping page responsive start */
+	.accomodate_cap{
+		color:black; 
+	 }
+	.accVdo {
+		position: absolute;
+		top: 1626px;
+		right: 24px;
+		width: 80%!important;
+		height: 221px!important;
+	}
+	 /* camping page responsive end */
+}
+
+@media (min-width: 768px){
+	.explore_card {
+		width: 328px!important;
+		height: 424px;
+	}
+	/* .accomodation .card { */
+		/* width: 300px!important; */
+	/* } */
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+	/* navbar css responsive start */
+	.shape2{
+		display:none;
+	}
+	.shape3{
+		display:none;
+	}
+	button.navbar-toggler {
+		background-color: #00cbfe;
+		margin-right: 59px;
+	}
+	nav.navbar{
+		background-color: white!important;
+		margin: 8px;
+	}
+	.navbar ul {
+		background-color: black;
+		position: relative;
+		right: 24px;
+		text-align: center;
+		padding: 18px;
+		border-radius: 5px;
+	}
+	a.navbar-brand {
+		position: sticky;
+		right: 625px;
+	}
+	form.input-group {
+		width: 300px;
+		margin-left: 200px;
+	}
+	/* navbar css responsive end */
+	/* about css responsive start */
+	.about p{
+		width:23rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.abt_img{
+		margin-top:100px;
+		height:309px;
+	}
+	/* about  css responsive end */
+	/* choose section css responsive start */
+	.choose .choose_card{
+		height:245.445px;
+	}
+	.choose_card .card-body {
+		padding: 17px!important;
+		margin-top: 37px!important;
+		font-size: 16px;
+	}
+	/* choose section css responsive end */
+		
+	/* accomodation css responsive start */
+	.accomodation .card{
+		width:332px!important;
+	}
+	.accomodation h5 {
+		margin-top: 109px;
+	}
+	/* accomodation css responsive end */
+	/* beachfront css responsive start */
+	.beachfront .read_btn{
+		width: 213px;
+	}
+	/* beachfront css responsive end */
+	/* book  css responsive start */
+	.book_now button{
+		width:166px;
+	}
+	/* book css responsive end */
+	/* activities css responsive start */
+	.explore_card{
+		width: 205px;
+		height: 425px;
+	}
+	/* activities css responsive end */
+	/* newsletter css responsive start */
+	.letter{
+		left: 136px;
+	}
+	/* newsletter css responsive end */
+	/* footer css responsive start */
+	.footer_content {
+		width: 837px;
+		padding: 11px;
+	}
+	.footer_logo {
+		width: 842px;
+		padding: 22px;
+	}
+	.footer_logo img{
+		width: 160px;
+		margin-top: 5px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/* footer css responsive end */ 
+	/* camping page start */
+	.accomodate_cap{
+		display:none;
+	}
+	.accomodate_cap_mob{
+		background-color: rgb(242 242 242);
+		border-radius: 7px;
+		padding:13px 23px 13px;
+		width: 100%;
+		text-align: center;
+		font-size: 20px;
+		font-family: Amarante;
+		visibility:visible;
+	}
+	.accVdo{
+		top:825px;
+	}
+	.accom_vdo img{
+		height: 394px;
+	}
+	/* camping page end */
+	
+	
+}
+
+
+

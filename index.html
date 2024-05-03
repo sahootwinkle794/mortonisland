@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moretonisland</title>
+	<!-- bootstrap css  -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<!-- fontawesome css start -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" />
+	<!-- fontawesome css end -->
+	<!-- lightslider css start -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css"/>
+	<!-- lightslider css end -->
+	<!-- lightgallery css start -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css"/>
+	<!-- lightgallery css end -->
+	<link rel="css/lightgallery.css">
+	<link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+	<!-- top nav section start -->
+	<section class="top_nav">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light" aria-label="Eighth navbar example">
+	<div class="shape"></div>
+	<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+	<!-- <div class="shape2"></div> -->
+	<!-- <div class="shape3"></div> -->
+	
+    <!-- <div class="container"> -->
+    <!-- <a class="navbar-brand" href="#"><img src="img/logo.png"></a> -->
+	<!-- <div class="shape4"></div> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>	
+	
+
+	<div class="collapse navbar-collapse ms-5" id="navbarsExample07">
+		
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-normal ">
+          <li class="nav-item me-4">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link" href="accomodation.html">Accomodation</a>
+          </li>
+		  <li class="nav-item me-4">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+		  <li class="nav-item me-4">
+            <a class="nav-link" href="camping.html">Camping</a>
+          </li>
+		  <li class="nav-item me-4">
+            <a class="nav-link" href="contact_us.html">Contact Us</a>
+          </li>
+		  <li class="nav-item">
+		  <form role="search" class="me-5 input-group search">
+          <input class="form-control" type="search" placeholder="Search here.." aria-label="Search">
+		  <button class="input-group-text"><i class="fa-solid fa-magnifying-glass fa-beat" style="color: #a3a3a3;"></i></button>
+        </form>
+		  </li>
+        </ul>
+        
+      </div>
+	</nav>
+	</section>
+	<!-- top nav section end -->
+	<!-- banner section start  -->
+	<section class="banner">
+	<div class="container text-center banner_container">
+	<h1>LUXURY BEACHFRONT CAMPING</h1>
+    <p>Hear the waves and enjoy nature at its best</p>
+	 <p><a class="btn btn-lg btn-warning book mt-4" href="#">Book Now</a></p>
+	 <a class="btn circle mb-4 mt-4" id="play_btn" onclick="play_vdo()" href="#"><i class="fa-solid fa-play" style="color: #ffffff;"></i></a>
+	<video autoplay muted loop id="myVideo">
+	  <source src="img/island.mp4" type="video/mp4">
+	  Your browser does not support HTML5 video.
+	</video>
+	</div> 
+	</section>
+	<!-- banner section end  -->
+	<!-- about section start  -->
+    <section class="about mt-5">
+	<div class="container mt-5">
+	<div class="row">
+	<div class="col-md-6">
+	<img src="img/about.png" class="img-fluid abt_img">
+	</div>
+	<div class="col-md-6 mt-5">
+	<h6>Moreton Island</h6>
+	<h2>Caravan Accommodation</h2>
+	<p class="fw-normal">Welcome to moretonisland.com.au where we have your Moreton Island accommodation all
+	sorted in one location, or should we say Moreton Island glamping. Luxury caravans right
+	on the beachfront on the western side of the island. All our caravans are brand new with
+	everything you need to have a fun holiday. A bit like your own resort or hotel room on
+	wheels, situated in the national park, right near the beach.
+	<span class="text-danger">Read More..</span>
+	</p>
+	</div>
+	</div>
+	</div>
+	</section>
+	<!-- about section end -->
+	<!-- why choose us ? section start -->
+	<section class="choose mt-5">
+	<div class="container mt-5 text-center">
+	<h2>Why Choose Us ?</h2>
+	<img src="img/img1.png">
+	<div class="row row-cols-md-3 g-4">
+	<div class="col">
+	<div class="card card_img">
+	  <div class="card-body">
+		<i class="fa-solid fa-house-user fa-beat" style="color: #f0a950;"></i>
+	  </div>
+	</div>
+	<div class="card choose_card">
+	  <div class="card-body p-5">
+		<h5 class="card-title">Experienced Local</h5>
+		<p class="card-text text-muted">40 years as a property owner and last 2 years as a permanent resident.</p>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card card_img">
+	  <div class="card-body">
+		<i class="fa-solid fa-people-roof fa-beat" style="color: #f0a950;"></i>
+	  </div>
+	</div>
+	<div class="card choose_card">
+	  <div class="card-body p-5">
+		<h5 class="card-title">Suitable For Couples Or A Family</h5>
+		<p class="card-text text-muted">Each caravan can sleep 3 adults and 1 child.</p>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card card_img">
+	  <div class="card-body">
+		<i class="fa-solid fa-calendar-xmark fa-beat" style="color: #f0a950;"></i>
+	  </div>
+	</div>
+	<div class="card choose_card">
+	  <div class="card-body p-5">
+		<h5 class="card-title">Flexible Cancellation</h5>
+		<p class="card-text text-muted">Please read our terms and conditions for cancellation policy.</p>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card card_img">
+	  <div class="card-body">
+		<i class="fa-solid fa-camera-retro fa-beat" style="color: #f0a950;"></i>
+	  </div>
+	</div>
+	<div class="card choose_card">
+	  <div class="card-body p-5">
+		<h5 class="card-title">Photography</h5>
+		<p class="card-text text-muted">Great memories to be made, so don't forget to pack your camera.</p>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card card_img">
+	  <div class="card-body">
+		<i class="fa-solid fa-thumbs-up fa-beat" style="color: #f0a950;"></i>
+	  </div>
+	</div>
+	<div class="card choose_card">
+	  <div class="card-body p-5">
+		<h5 class="card-title">Great Reviews</h5>
+		<p class="card-text text-muted">Prior to starting this business we had great reviews hiring out our camper trailers, see below.</p>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card card_img">
+	  <div class="card-body">
+		<i class="fa-solid fa-calendar-check fa-beat" style="color: #f0a950;"></i>
+	  </div>
+	</div>
+	<div class="card choose_card">
+	  <div class="card-body p-5">
+		<h5 class="card-title">Advanced Bookings</h5>
+		<p class="card-text text-muted">Book up to 12 months ahead and pay by credit card or eft.</p>
+	  </div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+	<!-- why choose us ? section end  -->
+	<!-- beachfront section start -->
+	<section class="beachfront mt-5">
+	<div class="container mt-5">
+	<h2 class="text-center">Moreton Island Absolute Beach Front Locations</h2>
+	<ul class="mt-5">
+	<li><span class="me-4"><img src="img/arr1.png"></span>We offer the only beachfront luxury caravan accommodation on Moreton Island in either North West or Comboyuro Point camping zones.</li>
+	<li><span class="me-4"><img src="img/arr1.png"></span>You have nothing to do but arrive and put the key in the door. Everything is taken care of, so you can relax and enjoy listening to the waves, smell the bush, hear the birds and enjoy the view.</li>
+	<li><span class="me-4"><img src="img/arr1.png"></span>Our vacation rentals offer you something that no other hotels or resorts can offer, why not explore and stay with us.</li>
+	</ul>
+	<button type="button" class="btn btn-outline-warning ms-4 mt-4 mb-4 col-md-2 read_btn">Read More<span class="ms-3"><i class="fa-solid fa-arrow-right-long fa-beat"></i></span></button>
+	</div>
+	</section>
+	<!-- beachfront section end -->
+	<!-- discover section strat -->
+	<section class="discover">
+	<div class="container">
+	<h2>FIND BEST CAMPING SPOTS</h2>
+	<p>Better Travel to Change your Better Emotions</p>
+	<button type="button" class="btn btn-dark col-md-2 discover_btn">Discover More<span class="ms-2"><i class="fa-solid fa-angles-right fa-beat" style="color: #ffffff;"></i></span></button>
+	</div>
+	</section>
+	<!-- discover section end -->
+	<!-- accomodation section start -->
+	<section class="accomodation">
+	<div class="container text-center">
+	<h2>Accomodation Standard</h2>
+	<img src="img/img1.png">
+	<div class="row mt-5" id="responsive">
+	<div class="col">
+	<div class="card">
+	  <div class="card-body acc_card2">
+		<h5 class="card-title">Fantasy 1 Hybrid Caravan Sleeps 3 Adults + 1 Child</h5>
+		<p class="card-text mt-4">Caravans come supplied with hot and cold water, flush chemical,
+		<span class="read">Read More...</span></p>
+		<button type="button" class="btn btn-warning mt-4 book_btn">Book Now <span class="ms-2"><i class="fa-solid fa-angles-right fa-beat"></i></span></button>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card">
+	  <div class="card-body acc_card1">
+		<h5 class="card-title">Fantasy 2 Hybrid Caravan Sleeps 3 Adults + 1 Child</h5>
+		<p class="card-text mt-4">Caravans come supplied with hot and cold water, flush chemical,
+		<span class="read">Read More...</span></p>
+		<button type="button" class="btn btn-warning mt-4 book_btn">Book Now <span class="ms-2"><i class="fa-solid fa-angles-right fa-beat" style="color: #ffffff;"></i></span></button>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card">
+	  <div class="card-body acc_card2">
+		<h5 class="card-title">Fantasy 1 Hybrid Caravan Sleeps 3 Adults + 1 Child</h5>
+		<p class="card-text mt-4">Caravans come supplied with hot and cold water, flush chemical,
+		<span class="read">Read More...</span></p>
+		<button type="button" class="btn btn-warning mt-4 book_btn">Book Now <span class="ms-2"><i class="fa-solid fa-angles-right fa-beat"></i></span></button>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card">
+	  <div class="card-body acc_card3">
+		<h5 class="card-title">Fantasy 1 Hybrid Caravan Sleeps 3 Adults + 1 Child</h5>
+		<p class="card-text mt-4">Caravans come supplied with hot and cold water, flush chemical,
+		<span class="read">Read More...</span></p>
+		<button type="button" class="btn btn-warning mt-4 book_btn">Book Now <span class="ms-2"><i class="fa-solid fa-angles-right fa-beat"></i></span></button>
+	  </div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+	<!-- accomodation section end -->
+	<!-- gallery section start -->
+	<section class="gallery">
+	<div class="container mt-5 text-center">
+	<h2 class="text-center">Our Gallery</h2>
+	<img src="img/img1.png">
+	<div class="mt-5" id="customize-thumbnails-gallery">
+	
+    <a href="img/frm3.png" class="img-fluid">
+        <img src="img/frm3.png" class="img-fluid" />
+    </a>
+    <a href="img/frm5.png" class="img-fluid">
+        <img src="img/frm5.png" class="img-fluid" />
+    </a>
+    <a href="img/frm4.png" class="img-fluid">
+        <img src="img/frm4.png" class="img-fluid" />
+    </a>
+	<a href="img/frm2.png" class="img-fluid">
+        <img src="img/frm2.png" class="img-fluid" />
+    </a>
+	<a href="img/frm1.png" class="img-fluid">
+        <img src="img/frm1.png" class="img-fluid" />
+    </a>
+	</div>
+	<a class="btn btn-lg btn-warning book mt-5" href="gallery.html">View More</a>
+	</div>
+	</section>
+	<!-- gallery section end -->
+	<!-- video section start -->
+	<section class="video">
+	<div class="container mt-5">
+	<!-- <video autoplay muted loop id="myVideo1"> -->
+	  <!-- <source src="img/vdo1.mp4" type="video/mp4"> -->
+	  <!-- Your browser does not support HTML5 video. -->
+	<!-- </video> -->
+	<iframe class="responsive-iframe" src="https://www.youtube.com/embed/trgl1x2mpJI"></iframe>
+	</div>
+	</section>
+	<!-- video section end -->
+	<!-- book now section start -->
+	<section class="book_now mt-5">
+	<div class="container text-end mt-5">
+	<h2 class="text-end">ENJOY THE BETTER CAMPING</h2>
+	<p class="text-end">Better Travel to Change your Better Emotions</p>
+	<button type="button" class="btn btn-dark col-md-2 discover_btn">Book Now<span class="ms-2"><i class="fa-solid fa-angles-right fa-beat" style="color: #ffffff;"></i></span></button>
+	</div>
+	</section>
+	<!-- book now section end -->
+	<!-- activities section start -->
+	<section class="activities mt-5">
+	<div class="container text-center mt-5">
+	<h2 class="text-center">Explore  Campground  Activities</h2>
+	<img src="img/img1.png">
+	<p class="mt-5">Moreton Island offers lots of things to do and below is just some of the fun activities you can expect to do in one of
+	Australia’s best National Park locations just off the coast of Brisbane Qld.</p>
+	<div class="row mt-5" id="responsive2">
+	<div class="col">
+	<div class="card explore_card">
+	  <img src="img/act1.png" class="card-img-top" alt="act1">
+	  <div class="card-body">
+		<h5 class="card-title text-muted text-start">MOUNTAIN BIKING</h5>
+		<p class="card-text text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+		<div class="read_more text-start">Read More..</div>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card explore_card">
+	  <img src="img/act2.png" class="card-img-top" alt="act2">
+	  <div class="card-body">
+		<h5 class="card-title text-muted text-start">NIGHT HIKE</h5>
+		<p class="card-text text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+		<div class="read_more text-start">Read More..</div>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card explore_card">
+	  <img src="img/act1.png" class="card-img-top" alt="act1">
+	  <div class="card-body">
+		<h5 class="card-title text-muted text-start">MOUNTAIN BIKING</h5>
+		<p class="card-text text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+		<div class="read_more text-start">Read More..</div>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card explore_card">
+	  <img src="img/act3.png" class="card-img-top" alt="act3">
+	  <div class="card-body">
+		<h5 class="card-title text-muted text-start">FISHING</h5>
+		<p class="card-text text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+		<div class="read_more text-start">Read More..</div>
+	  </div>
+	</div>
+	</div>
+	</div>
+	<div class="text-center mt-5">
+	<a class="btn btn-lg btn-warning book" href="#">Explore More</a>
+	</div>
+	</div>
+	</section>
+	<!-- activities section end -->
+	<!-- testimonials section start -->
+	<section class="testimonials mt-5">
+	<div class="container text-center mt-5 mb-5">
+	<h2>Testimonials</h2>
+	<img src="img/img2.png">
+	<div class="row mt-5" id="responsive3">
+	<div class="col">
+	<div class="card test_card">
+	  <div class="card-body">
+		<h5 class="card-title">Petrina April 2021</h5>
+		<div class="text-start"><i class="fa-solid fa-quote-left" style="color: #f0a950;"></i></div>
+		<p class="card-text">The setup and location of our camper trailer for our first ever family camping trip was awesome.
+		The communication the whole way from booking to end was better than expected. We couldn't have asked for 
+		better service than being delivered dry towels after a few days of constant rain, that was the best! Thanks Don and Sharon!
+		Hopefully we'll be back every year now.</p>
+		<div class="text-end"><i class="fa-solid fa-quote-right" style="color: #f0a950;"></i></div>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card test_card">
+	  <div class="card-body">
+		<h5 class="card-title">Alicia March 2021</h5>
+		<div class="text-start"><i class="fa-solid fa-quote-left" style="color: #f0a950;"></i></div>
+		<p class="card-text">We loved our stay so much. Hosts were wonderful- friendly and accommodating, nothing was a problem. Highly recommend.
+		We look forward to seeing them again next time we visit Moreton.</p>
+		<div class="text-end"><i class="fa-solid fa-quote-right" style="color: #f0a950;"></i></div>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card test_card">
+	  <div class="card-body">
+		<h5 class="card-title">Petrina April 2021</h5>
+		<div class="text-start"><i class="fa-solid fa-quote-left" style="color: #f0a950;"></i></div>
+		<p class="card-text">The setup and location of our camper trailer for our first ever family camping trip was awesome.
+		The communication the whole way from booking to end was better than expected. We couldn't have asked for 
+		better service than being delivered dry towels after a few days of constant rain, that was the best! Thanks Don and Sharon!
+		Hopefully we'll be back every year now.</p>
+		<div class="text-end"><i class="fa-solid fa-quote-right" style="color: #f0a950;"></i></div>
+	  </div>
+	</div>
+	</div>
+	<div class="col">
+	<div class="card test_card">
+	  <div class="card-body">
+		<h5 class="card-title">Lance January 2021</h5>
+		<div class="text-start"><i class="fa-solid fa-quote-left" style="color: #f0a950;"></i></div>
+		<p class="card-text">Awsome setup for me and my little family, don helped us out with getting everything 
+		we needed to stay and enjoy what Moreton had to offer,
+		thanks so much for youre hospitality don.</p>
+		<div class="text-end"><i class="fa-solid fa-quote-right" style="color: #f0a950;"></i></div>
+	  </div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+	<!-- testimonials section end -->
+	<!-- newsletter section start -->
+	<section class="newsletter">
+	<div class="container text-center mt-4 mb-4">
+	<h2>Subscribe Our Newsletter</h2>
+	<p>Get Every Update</p>
+	<div class="letter input-group">
+	<input type="email" class="form-control" placeholder="Email Address..">
+	<button type="button" class="btn btn-dark col-md-2 discover_btn ">Subscribe<span class="ms-2"><i class="fa-solid fa-angles-right fa-beat" style="color: #ffffff;"></i></span></button>
+	</div>
+	</div>
+	</section>
+	<!-- newsletter section end -->
+	<!-- footer section start -->
+	<footer>
+	<div class="row">
+	<div class="col-md-2 footer_logo">
+	<div class="container">
+	<img src="img/footer_logo.png">
+	</div>
+	</div>
+	<div class="col-md-10 footer_content">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-2">
+			<h5 class="ms-4">Quick Links</h5>
+			<ul class="mt-4">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="camping.html">Camping</a></li>
+			<li><a href="accomodation.html">Accomodation</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h5 class="ms-4">Accomodation</h5>
+			<ul class="mt-4">
+			<li><a href="#">Caravan Camping</a></li>
+			<li><a href="#">Camper Vans</a></li>
+			<li><a href="#">Motor Homes</a></li>
+			<li><a href="#">Recreational Vehicle</a></li>
+			<li><a href="#">Cabin Trailer</a></li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<h5 class="ms-4">Support</h5>
+			<ul class="mt-4">
+			<li><a href="faq.html">FAQ</a></li>
+			<li><a href="#">Help</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="col-md-4 touch">
+			<h5 class="ms-4">Get In Touch</h5>
+			<ul class="mt-4">
+			<li><a href="tel:0429347807"><span class="me-2"><i class="fa-solid fa-phone-volume" style="color: #F0A937;"></i></span>0429347807</a></li>
+			<li><a href="mailto:info@moretonislandcamping.com.au"><span class="me-2"><i class="fa-solid fa-envelope" style="color: #F0A937;"></i></span>info@moretonislandcamping.com.au</a></li>
+			<li><span class="me-2"><i class="fa-solid fa-location-dot" style="color: #f0a950;"></i></span>10 Banksia Street Bulwer Moreton Island 4025</li>
+			</ul>
+			<ul class="brands">
+			<li class="px-2"><a href="#"><i class="fa-brands fa-square-facebook fa-beat-fade" style="color: #ffffff;"></i></a></li>
+			<li class="px-2"><a href="#"><i class="fa-brands fa-square-twitter fa-beat-fade" style="color: #ffffff;"></i></a></li>
+			<li class="px-2"><a href="#"><i class="fa-brands fa-square-instagram fa-beat-fade" style="color: #ffffff;"></i></a></li>
+			<li class="px-2"><a href="#"><i class="fa-brands fa-linkedin fa-beat-fade" style="color: #ffffff;"></i></a></li>
+			</ul>
+			
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</footer>
+	<!-- footer section end -->
+	<!-- copyright section start -->
+	<section class="copyright">
+	<div class="container text-center mt-3">
+	<p class="fs-6"><span class="me-2"><img src="img/copy.png"></span>2023 Moreton Island Camping | All Rights Reserved </p>
+	</div>
+	</section>
+	<!-- copyright section end -->
+	<!-- scroll to top arrow section start -->
+	<button class="back-to-top" type="button"></button>
+	<!-- scroll to top arrow sectin end -->
+	<!-- fontawesome js start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/brands.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/solid.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/regular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/fontawesome.min.js" ></script>
+	<!-- fontawesome js end -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	<!-- lightslider js start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script>
+	<!-- lightslider js end -->
+	<!-- lightgallery js start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+	<!-- lightgallery js end -->
+	<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	
+  </body>
+</html>
